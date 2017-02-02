@@ -8,8 +8,7 @@ _EOF
 
 apk update
 apk add cloud-init
+apk add sfdisk
+apk add util-linux
 apk add bash
 rc-update add cloud-init
-
-# update ntp server to link-local
-sed -i 's/servers pool.ntp.org/server 169.254.169.4/g' /etc/ntpd.conf
