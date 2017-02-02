@@ -6,5 +6,6 @@
 *.box
 # ignore test directories
 test/
-
+output-virtualbox-iso
+packer_cache
 
