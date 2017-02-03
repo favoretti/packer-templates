@@ -13,4 +13,4 @@ apk add util-linux
 apk add bash
 apk add patchelf
 rc-update add cloud-init
-patch -p0 -i /root/ci_growparth.patch /usr/lib/python2.7/site-packages/cloudinit/config/cc_growpart.py
+patch -p0 -i /root/ci_growpath.patch /usr/lib/python2.7/site-packages/cloudinit/config/cc_growpart.py
